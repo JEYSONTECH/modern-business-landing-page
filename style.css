@@ -335,18 +335,19 @@ button{
 
 .project-image{
   height:220px;
+  overflow:hidden;
+}
 
-  display:flex;
-  align-items:center;
-  justify-content:center;
+.project-image img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
 
-  font-size:80px;
+  transition:0.4s;
+}
 
-  background:linear-gradient(
-    135deg,
-    rgba(37,99,235,0.2),
-    rgba(124,58,237,0.2)
-  );
+.project-card:hover img{
+  transform:scale(1.05);
 }
 
 .project-content{
