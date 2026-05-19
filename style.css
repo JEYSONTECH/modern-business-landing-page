@@ -235,6 +235,7 @@ button{
 
 .services{
   padding:120px 8%;
+  display:none;
 }
 
 .section-header{
@@ -300,6 +301,7 @@ button{
 
 .projects{
   padding:120px 8%;
+  display:none;
 }
 
 .projects-grid{
