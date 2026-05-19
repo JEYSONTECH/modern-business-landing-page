@@ -434,3 +434,18 @@ background:#0f172a;
 
   font-weight:600;
 }
+/* Footer */
+
+footer{
+  padding:40px 8%;
+
+  text-align:center;
+
+  border-top:1px solid rgba(255,255,255,0.05);
+
+  color:#64748b;
+
+  font-size:15px;
+
+  margin-top:40px;
+}
