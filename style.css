@@ -229,3 +229,68 @@ button{
   }
 
 }
+/* Services */
+
+.services{
+  padding:120px 8%;
+}
+
+.section-header{
+  text-align:center;
+  margin-bottom:70px;
+}
+
+.section-tag{
+  color:#3b82f6;
+  font-weight:700;
+  letter-spacing:2px;
+  margin-bottom:15px;
+}
+
+.section-header h2{
+  font-size:60px;
+}
+
+.services-grid{
+  display:grid;
+
+  grid-template-columns:
+  repeat(auto-fit, minmax(280px, 1fr));
+
+  gap:30px;
+}
+
+.service-card{
+  background:rgba(15,23,42,0.7);
+
+  border:1px solid rgba(255,255,255,0.05);
+
+  padding:40px;
+
+  border-radius:28px;
+
+  transition:0.4s;
+
+  backdrop-filter:blur(10px);
+}
+
+.service-card:hover{
+  transform:translateY(-12px);
+
+  border-color:rgba(59,130,246,0.5);
+}
+
+.service-icon{
+  font-size:45px;
+  margin-bottom:25px;
+}
+
+.service-card h3{
+  font-size:28px;
+  margin-bottom:20px;
+}
+
+.service-card p{
+  color:#94a3b8;
+  line-height:1.8;
+}
