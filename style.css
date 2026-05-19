@@ -8,6 +8,7 @@
 body{
   background:#0f172a;
   color:white;
+  line-height:1.6;
 }
 
 nav{
@@ -16,17 +17,24 @@ nav{
   align-items:center;
   padding:20px 50px;
   background:#111827;
+  position:sticky;
+  top:0;
 }
 
 nav ul{
   display:flex;
-  list-style:none;
   gap:20px;
+  list-style:none;
 }
 
 nav a{
   color:white;
   text-decoration:none;
+  transition:0.3s;
+}
+
+nav a:hover{
+  color:#3b82f6;
 }
 
 .hero{
@@ -36,6 +44,7 @@ nav a{
   justify-content:center;
   align-items:center;
   text-align:center;
+  padding:20px;
 }
 
 .hero h2{
@@ -44,16 +53,62 @@ nav a{
 }
 
 .hero p{
-  font-size:20px;
+  font-size:22px;
   margin-bottom:30px;
+  color:#cbd5e1;
 }
 
 button{
   padding:15px 30px;
   border:none;
+  border-radius:12px;
   background:#2563eb;
   color:white;
-  border-radius:10px;
   cursor:pointer;
   font-size:18px;
+  transition:0.3s;
+}
+
+button:hover{
+  transform:scale(1.05);
+  background:#3b82f6;
+}
+
+.services,
+.about,
+.contact{
+  padding:100px 50px;
+  text-align:center;
+}
+
+.cards{
+  display:flex;
+  justify-content:center;
+  gap:30px;
+  margin-top:50px;
+  flex-wrap:wrap;
+}
+
+.card{
+  background:#1e293b;
+  padding:30px;
+  border-radius:20px;
+  width:300px;
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:translateY(-10px);
+}
+
+.card h3{
+  margin-bottom:15px;
+}
+
+.about p,
+.contact p{
+  max-width:700px;
+  margin:auto;
+  margin-top:20px;
+  color:#cbd5e1;
 }
