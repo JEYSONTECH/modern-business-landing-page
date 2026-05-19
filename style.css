@@ -99,13 +99,15 @@ nav a:hover{
 /* Hero */
 
 .hero{
-  min-height:100vh;
+  height:100vh;
 
   display:flex;
   align-items:center;
   justify-content:center;
 
   padding:120px 8%;
+
+  position:relative;
 }
 
 .hero-left{
