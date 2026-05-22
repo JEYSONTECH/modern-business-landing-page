@@ -464,3 +464,21 @@ footer{
 
   transform:translateY(0);
 }
+/* Project Image */
+
+.project-image img{
+  width:100%;
+  height:100%;
+
+  object-fit:cover;
+}
+
+/* Project Buttons */
+
+.project-buttons{
+  margin-top:25px;
+}
+
+.project-buttons button{
+  width:100%;
+}
