@@ -44,3 +44,21 @@ const observer = new IntersectionObserver((entries) => {
 });
 
 hiddenElements.forEach((el) => observer.observe(el));
+/* Project Image */
+
+.project-image img{
+  width:100%;
+  height:100%;
+
+  object-fit:cover;
+}
+
+/* Project Buttons */
+
+.project-buttons{
+  margin-top:25px;
+}
+
+.project-buttons button{
+  width:100%;
+}
