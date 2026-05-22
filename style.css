@@ -235,7 +235,6 @@ button{
 
 .services{
   padding:120px 8%;
-  display:none;
 }
 
 .section-header{
@@ -301,7 +300,6 @@ button{
 
 .projects{
   padding:120px 8%;
-  display:none;
 }
 
 .projects-grid{
@@ -371,9 +369,6 @@ background:#0f172a;
 }
 /* About */
 
-.about{
-  padding:120px 8%;
-}
 
 .about-container{
   display:flex;
@@ -452,7 +447,8 @@ footer{
 /* Scroll Animation */
 
 .hidden{
-  opacity:0;
+  display:none;
+}
 
   transform:translateY(80px);
 
